@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import '../css/styles.css';
 
 class Header extends Component {
-   
     state = {
         keywords: ''
     }
@@ -14,6 +13,7 @@ class Header extends Component {
     }
     
     render() {
+
         return (
             <header>
                 <div className="logo">Logo</div>
